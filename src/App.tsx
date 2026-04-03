@@ -13,47 +13,60 @@ import CloseIcon from "@mui/icons-material/Close";
 import SendIcon from "@mui/icons-material/Send";
 import MenuIcon from "@mui/icons-material/Menu";
 
+import bikano from "./image/bikano.jpeg";
+import brown from "./image/brown.png";
+import chilli from "./image/chilli.png";
+import header from "./image/header.png";
+import img8257 from "./image/IMG_8257.HEIC";
+import logo from "./image/logo.png";
+import logoblac from "./image/logoblac.png";
+import logoblack from "./image/logoblack.png";
+import oregano from "./image/oregano.png";
+import veerji from "./image/veerji_malai.png";
+import whatsapp from "./image/whatsap_image.jpg";
+import white from "./image/white.png";
+
 const PRODUCTS = [
   {
     id: 1,
     name: "Mouth Freshener Sachets",
     description:
       "Premium quality mouth freshener for a refreshing end to every meal.",
-    image: "/src/image/veerji_malai.png",
+    image: { veerji },
   },
   {
     id: 2,
     name: "Mishri Prasad Sachets",
     description:
       "Traditional sweet mishri sachets, perfect for religious or hospitality use.",
-    image: "/src/image/whatsap_image.jpg",
+    image: { whatsapp },
   },
   {
     id: 3,
     name: "Sugar Sachets",
     description:
       "Fine granulated white sugar in easy-to-use customized sachets.",
-    image: "/src/image/white.png",
+    image: { white },
   },
   {
     id: 4,
     name: "Brown Sugar Sachets",
     description:
       "Natural brown sugar sachets for health-conscious cafes and restaurants.",
-    image: "/src/image/brown.png",
+    image: { brown },
   },
   {
     id: 5,
     name: "Oregano Sachets",
     description: "Aromatic dried oregano flakes for pizzas, pastas, and more.",
-    image: "/src/image/oregano.png",
+    image: { oregano },
   },
   {
     id: 6,
     name: "Chilli Flakes Sachets",
     description:
       "Spicy and bold chilli flakes to add that extra kick to your brand's dishes.",
-    image: "/src/image/chilli.png",
+    image: { chilli },
   },
 ];
 
@@ -186,7 +199,7 @@ export default function App() {
               className="flex items-center hover:opacity-80 transition-opacity relative z-10"
             >
               <img
-                src="/src/image/logo.png"
+                src={logo}
                 alt="Freashies Logo"
                 className="h-20 md:h-32 w-auto object-contain invert scale-125"
               />
@@ -390,7 +403,7 @@ export default function App() {
                         className="w-full h-auto object-cover md:hidden"
                       />
                       <img
-                        src="/src/image/header.png"
+                        src={header}
                         alt="Customized Sachets Desktop"
                         className="hidden md:block w-full max-h-[600px] object-cover"
                       />
