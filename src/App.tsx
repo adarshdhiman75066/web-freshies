@@ -398,7 +398,7 @@ export default function App() {
                       }}
                     >
                       <img
-                        src="/src/image/bikano20.jpeg"
+                        src={bikano}
                         alt="Customized Sachets Mobile"
                         className="w-full h-auto object-cover md:hidden"
                       />
