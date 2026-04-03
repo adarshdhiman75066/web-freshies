@@ -32,41 +32,41 @@ const PRODUCTS = [
     name: "Mouth Freshener Sachets",
     description:
       "Premium quality mouth freshener for a refreshing end to every meal.",
-    image: { veerji },
+    image: veerji,
   },
   {
     id: 2,
     name: "Mishri Prasad Sachets",
     description:
       "Traditional sweet mishri sachets, perfect for religious or hospitality use.",
-    image: { whatsapp },
+    image: whatsapp,
   },
   {
     id: 3,
     name: "Sugar Sachets",
     description:
       "Fine granulated white sugar in easy-to-use customized sachets.",
-    image: { white },
+    image: white,
   },
   {
     id: 4,
     name: "Brown Sugar Sachets",
     description:
       "Natural brown sugar sachets for health-conscious cafes and restaurants.",
-    image: { brown },
+    image: brown,
   },
   {
     id: 5,
     name: "Oregano Sachets",
     description: "Aromatic dried oregano flakes for pizzas, pastas, and more.",
-    image: { oregano },
+    image: oregano,
   },
   {
     id: 6,
     name: "Chilli Flakes Sachets",
     description:
       "Spicy and bold chilli flakes to add that extra kick to your brand's dishes.",
-    image: { chilli },
+    image: chilli,
   },
 ];
 
