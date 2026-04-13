@@ -504,7 +504,7 @@ export default function App() {
               <section className="py-12 bg-gray-50 border-y border-gray-100">
                 <div className="max-w-7xl mx-auto px-4 text-center">
                   <h2 className="text-2xl font-bold mb-6">
-                    Ready to Customize Your Table Essentials?
+                    Ready for Customize Your Table Essentials?
                   </h2>
                   <CTAButtons />
                 </div>
