@@ -29,43 +29,43 @@ import white from "./image/white.png";
 const PRODUCTS = [
   {
     id: 1,
-    name: "Mouth Freshener Sachets",
+    name: "Custom Branded Mouth Freshener Sachets",
     description:
-      "Premium quality mouth freshener for a refreshing end to every meal.",
+      "Premium quality personalized mouth freshener and sugar-coated saunf pouches for premium restaurants, hotels, and dhabas.",
     image: veerji,
   },
   {
     id: 2,
-    name: "Mishri Prasad Sachets",
+    name: "Custom Printed Mishri Prasad Pouches",
     description:
-      "Traditional sweet mishri sachets, perfect for religious or hospitality use.",
+      "Traditional sweet mishri prasad sachets, custom-printed for temples, religious trusts, and special events.",
     image: whatsapp,
   },
   {
     id: 3,
-    name: "Sugar Sachets",
+    name: "Customized White Sugar Sachets",
     description:
-      "Fine granulated white sugar in easy-to-use customized sachets.",
+      "Fine granulated premium white sugar in easy-to-use customized sachets with your brand logo.",
     image: white,
   },
   {
     id: 4,
-    name: "Brown Sugar Sachets",
+    name: "Personalized Brown Sugar Sachets",
     description:
-      "Natural brown sugar sachets for health-conscious cafes and restaurants.",
+      "Natural brown sugar sachets with custom branding for health-conscious cafes, hotels, and restaurants.",
     image: brown,
   },
   {
     id: 5,
-    name: "Oregano Sachets",
-    description: "Aromatic dried oregano flakes for pizzas, pastas, and more.",
+    name: "Wholesale Oregano Sachets",
+    description: "Aromatic premium dried oregano flakes and spice mixes for cafes, pizzerias, and Italian dining.",
     image: oregano,
   },
   {
     id: 6,
-    name: "Chilli Flakes Sachets",
+    name: "Bulk Chilli Flakes Sachets",
     description:
-      "Spicy and bold chilli flakes to add that extra kick to your brand's dishes.",
+      "Spicy, bold, and high-quality red chilli flakes pouches to complement your pizzeria or restaurant brand.",
     image: chilli,
   },
 ];
@@ -359,7 +359,7 @@ export default function App() {
 
                   <div className="mt-auto pt-10 text-center">
                     <p className="text-white/40 text-xs font-bold uppercase tracking-widest">
-                      Yamunanagar, Haryana
+                      Yamuna Nagar, Haryana
                     </p>
                   </div>
                 </div>
@@ -412,11 +412,11 @@ export default function App() {
 
                   <div className="px-4 w-full flex flex-col items-center mt-[-60px] md:mt-[-120px] relative z-10">
                     <h1 className="text-3xl md:text-6xl font-bold tracking-tight mb-2 uppercase relative">
-                      Customized Sachet's{" "}
-                      <span className="text-brand-red">for Your Brand</span>
+                      Custom Branded Mouth Freshener &{" "}
+                      <span className="text-brand-red">Seasoning Sachets Manufacturer</span>
                     </h1>
                     <p className="text-base md:text-lg text-gray-600 mb-6 font-bold uppercase tracking-wide">
-                      Your Logo on Every Sachet | Low M.O.Q. Available
+                      Your Logo on Every Pouch | Low M.O.Q. for Restaurants, Hotels & Dhabas across North India
                     </p>
                     <CTAButtons />
                   </div>
@@ -477,7 +477,7 @@ export default function App() {
                                 style={{ fontSize: 14 }}
                                 className="text-brand-red"
                               />
-                              Your Design
+                              Custom Design
                             </div>
                           </div>
                           <div className="flex flex-col gap-2">
@@ -504,7 +504,7 @@ export default function App() {
               <section className="py-12 bg-gray-50 border-y border-gray-100">
                 <div className="max-w-7xl mx-auto px-4 text-center">
                   <h2 className="text-2xl font-bold mb-6">
-                    Ready for Customize Your Table Essentials?
+                    Ready to Customize Your Restaurant Table Essentials?
                   </h2>
                   <CTAButtons />
                 </div>
@@ -515,11 +515,11 @@ export default function App() {
                 <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
                   <div className="text-center mb-10">
                     <h2 className="text-3xl font-bold mb-4 uppercase">
-                      Send us an Enquiry
+                      Get a Free Bulk Custom Quote
                     </h2>
                     <p className="text-gray-600 font-medium">
                       Have a specific requirement? Fill out the form below and
-                      we'll get back to you.
+                      we'll get back to you with design mockups.
                     </p>
                   </div>
 
@@ -534,10 +534,10 @@ export default function App() {
                           <VerifiedUserIcon style={{ fontSize: 36 }} />
                         </div>
                         <h4 className="text-xl font-bold mb-2">
-                          Enquiry Sent!
+                          Enquiry Sent Successfully!
                         </h4>
                         <p className="text-gray-500">
-                          We'll get back to you shortly with a custom quote.
+                          We'll get back to you shortly with a wholesale custom quote.
                         </p>
                       </motion.div>
                     ) : (
@@ -603,7 +603,7 @@ export default function App() {
                             name="details"
                             rows={4}
                             className="w-full px-4 py-3 bg-white border border-gray-300 rounded-xl focus:ring-2 focus:ring-brand-red/20 focus:border-brand-red outline-none transition-all text-base text-brand-black resize-none"
-                            placeholder="Tell us about the products you need, quantity, and customization requirements..."
+                            placeholder="Tell us about the sachets you need, quantity, and brand logo customization requirements..."
                           />
                         </div>
                         <button
@@ -616,7 +616,7 @@ export default function App() {
                           ) : (
                             <>
                               <SendIcon style={{ fontSize: 20 }} />
-                              Submit Enquiry
+                              Submit Bulk Enquiry
                             </>
                           )}
                         </button>
@@ -635,20 +635,19 @@ export default function App() {
                         <PaletteIcon className="text-brand-red" />
                       </div>
                       <h4 className="font-bold text-lg mb-2">
-                        100% Customized
+                        100% Brand Customization
                       </h4>
                       <p className="text-sm text-gray-500">
-                        We print your logo and brand colors on every sachet.
+                        We print your restaurant logo, tagline, and brand identity on every single sachet.
                       </p>
                     </div>
                     <div>
                       <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center mx-auto mb-4 shadow-sm border border-gray-100">
                         <InventoryIcon className="text-brand-red" />
                       </div>
-                      <h4 className="font-bold text-lg mb-2">Low M.O.Q.</h4>
+                      <h4 className="font-bold text-lg mb-2">Low M.O.Q. Solutions</h4>
                       <p className="text-sm text-gray-500">
-                        We manufacture in very low minimum order quantities for
-                        brands of all sizes.
+                        Flexible manufacturing in very low minimum order quantities tailored for cafes and food chains.
                       </p>
                     </div>
                     <div>
@@ -656,10 +655,10 @@ export default function App() {
                         <LocationOnIcon className="text-brand-red" />
                       </div>
                       <h4 className="font-bold text-lg mb-2">
-                        Pan India Delivery
+                        Pan India Supply & Delivery
                       </h4>
                       <p className="text-sm text-gray-500">
-                        Based in Yamunanagar, Haryana. Supplying across India.
+                        Proudly based in Yamuna Nagar, Haryana. Delivering supreme hospitality sachets PAN India.
                       </p>
                     </div>
                   </div>
@@ -678,24 +677,23 @@ export default function App() {
               className="py-16 px-4 sm:px-6 lg:px-8 max-w-3xl mx-auto"
             >
               <h2 className="text-4xl md:text-5xl font-bold mb-8 text-center">
-                Built for Restaurant Branding
+                Top Sachet & Mouth Freshener Manufacturer in Haryana
               </h2>
               <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
                 <p>
                   <span className="font-bold text-brand-red">Freashies</span>{" "}
-                  specializes in customized table essentials designed for
-                  restaurants, cafes, and food chains. We focus on turning
-                  everyday items like mouth fresheners, sugar sachets, and
-                  seasoning packets into powerful branding tools.
+                  is a premier manufacturer specializing in customized hospitality table essentials designed specifically for 
+                  restaurants, hotels, cafes, and large food dhabas across North India. Based out of Yamuna Nagar, Haryana, we turn 
+                  everyday utility products into powerful advertising tools.
                 </p>
                 <p>
-                  Every product we deliver is tailored to your brand — from logo
-                  to design — ensuring a premium and consistent customer
-                  experience.
+                  Our primary manufacturing lineup features premium custom mouth freshener packets, sweet sugar-coated fennel seeds (saunf), 
+                  custom sugar sachets, and wholesale seasonings like catering-grade oregano flakes and spicy chili flakes. Every product we 
+                  deliver is tailored strictly to your brand guidelines — ensuring complete logo integration, pristine hygiene standards, 
+                  and high customer engagement.
                 </p>
                 <p className="font-medium text-brand-black">
-                  We work with businesses that value quality, hygiene, and
-                  strong brand presence.
+                  Whether you manage a boutique cafe in Delhi NCR or a prominent highway dhaba, Freashies delivers exceptional quality with low M.O.Q. limits.
                 </p>
               </div>
               <div className="mt-12 text-center">
@@ -714,7 +712,7 @@ export default function App() {
               className="py-16 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto"
             >
               <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center">
-                Contact Us
+                Contact Freashies - Request Bulk Samples
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100">
@@ -748,7 +746,7 @@ export default function App() {
                       </div>
                       <div>
                         <p className="text-sm text-gray-500 uppercase font-bold tracking-wider mb-1">
-                          WhatsApp
+                          WhatsApp B2B Support
                         </p>
                         <a
                           href={WHATSAPP_LINK}
@@ -769,10 +767,10 @@ export default function App() {
                       </div>
                       <div>
                         <p className="text-sm text-gray-500 uppercase font-bold tracking-wider mb-1">
-                          Address
+                          Manufacturing Unit Address
                         </p>
                         <p className="text-xl font-bold">
-                          Yamunanagar, Haryana
+                          Yamuna Nagar, Haryana, India
                         </p>
                       </div>
                     </div>
@@ -780,12 +778,11 @@ export default function App() {
                 </div>
                 <div className="bg-brand-black text-white p-8 rounded-3xl flex flex-col justify-center">
                   <h3 className="text-2xl font-bold mb-4 uppercase">
-                    Low M.O.Q. Available
+                    Low M.O.Q. Commercial Orders
                   </h3>
                   <p className="text-gray-400 mb-8">
-                    We manufacture in very low M.O.Q. and supply for restaurants
-                    and food chains across India. Contact us for custom quotes
-                    and design mockups.
+                    We manufacture in flexible low quantities and supply restaurants, catering chains, and temples across India. 
+                    Reach out directly for custom design mockups and free tactile samples.
                   </p>
                   <a
                     href={WHATSAPP_LINK}
@@ -843,7 +840,7 @@ export default function App() {
                   <div className="flex-1 p-6 sm:p-8">
                     <div className="hidden md:block mb-6">
                       <p className="text-brand-red text-xs font-bold uppercase tracking-widest mb-1">
-                        Product Enquiry
+                        Product Bulk Enquiry
                       </p>
                       <h3 className="text-2xl font-bold text-brand-black">
                         {selectedProduct.name}
@@ -863,7 +860,7 @@ export default function App() {
                           Enquiry Sent!
                         </h4>
                         <p className="text-gray-500">
-                          We'll get back to you shortly with a custom quote.
+                          We'll get back to you shortly with a wholesale custom quote.
                         </p>
                       </motion.div>
                     ) : (
@@ -927,7 +924,7 @@ export default function App() {
                             name="details"
                             rows={3}
                             className="w-full px-4 py-3 bg-gray-50 border border-gray-300 rounded-xl focus:ring-2 focus:ring-brand-red/20 focus:border-brand-red outline-none transition-all text-base text-brand-black resize-none"
-                            placeholder="Quantity, specific requirements, etc."
+                            placeholder="Quantity, specific branding requirements, etc."
                           />
                         </div>
                         <div className="flex flex-col gap-3 mt-2">
@@ -941,7 +938,7 @@ export default function App() {
                             ) : (
                               <>
                                 <SendIcon style={{ fontSize: 18 }} />
-                                Request Quote
+                                Request Wholesale Quote
                               </>
                             )}
                           </button>
@@ -970,10 +967,10 @@ export default function App() {
           <div className="bg-brand-black rounded-3xl p-8 md:p-16 text-white flex flex-col md:flex-row justify-between items-center gap-12">
             <div className="max-w-md text-center md:text-left">
               <h2 className="text-3xl md:text-5xl font-bold mb-4">
-                Ready to elevate your brand?
+                Ready to elevate your restaurant branding?
               </h2>
               <p className="text-gray-400 text-lg">
-                Contact us today for custom quotes and design mockups.
+                Contact Freashies today for wholesale custom sachet quotes and free design mockups.
               </p>
             </div>
             <div className="flex flex-col gap-4 w-full md:w-auto">
@@ -991,7 +988,7 @@ export default function App() {
                 className="flex items-center justify-center gap-3 bg-[#25D366] text-white px-8 py-4 rounded-2xl font-bold text-xl hover:opacity-90 transition-opacity"
               >
                 <WhatsAppIcon style={{ fontSize: 26 }} />
-                WhatsApp Now
+                WhatsApp Bulk Order
               </a>
             </div>
           </div>
@@ -1013,9 +1010,7 @@ export default function App() {
                 </span>
               </button>
               <p className="text-gray-400 leading-relaxed">
-                Elevating the dining experience across India with premium,
-                customized table essentials. Quality, hygiene, and branding in
-                every sachet.
+                Leading custom mouth freshener sachet and corporate seasoning pouch manufacturer in Haryana. Elevating the dining experience across India with pristine quality and brand identity.
               </p>
             </div>
 
@@ -1063,7 +1058,7 @@ export default function App() {
             {/* Products */}
             <div>
               <h4 className="text-lg font-bold mb-6 text-white uppercase tracking-wider">
-                Products
+                Our Products
               </h4>
               <ul className="space-y-4 text-gray-400">
                 {PRODUCTS.slice(0, 4).map((p) => (
@@ -1087,7 +1082,7 @@ export default function App() {
             {/* Contact Us */}
             <div>
               <h4 className="text-lg font-bold mb-6 text-white uppercase tracking-wider">
-                Contact Us
+                Contact Freashies
               </h4>
               <ul className="space-y-4">
                 <li className="flex items-start gap-3 text-gray-400">
@@ -1113,7 +1108,7 @@ export default function App() {
                     rel="noopener noreferrer"
                     className="hover:text-white transition-colors"
                   >
-                    WhatsApp Us
+                    WhatsApp Wholesale Support
                   </a>
                 </li>
                 <li className="flex items-start gap-3 text-gray-400">
@@ -1121,14 +1116,14 @@ export default function App() {
                     style={{ fontSize: 22 }}
                     className="text-brand-red shrink-0 mt-1"
                   />
-                  <span>Yamunanagar, Haryana</span>
+                  <span>Yamuna Nagar, Haryana, India</span>
                 </li>
               </ul>
             </div>
           </div>
 
           <div className="mt-16 pt-8 border-t border-white/5 text-center text-gray-500 text-sm">
-            <p>© 2026 Freashies. All rights reserved.</p>
+            <p>© 2026 Freashies. All rights reserved. | Wholesale Sachet Manufacturers India</p>
           </div>
         </div>
       </footer>
